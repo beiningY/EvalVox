@@ -1,0 +1,83 @@
+[
+    {
+      "file_id": "21-20181009-070000-1033-4152-03-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 0.0,
+      "end_time": 2.97,
+      "duration": 2970,
+      "hypothesis": "tenez   prenom   oui   d   accord   tres   bien   au   revoir"
+    },
+    {
+      "file_id": "21-20181009-070000-1033-4152-03-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 5.204,
+      "end_time": 7.059,
+      "duration": 1855,
+      "hypothesis": "ooo   oui   c   est   le   moment"
+    },
+    {
+      "file_id": "21-20181009-070000-1033-4152-03-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 17.523,
+      "end_time": 20.893,
+      "duration": 3370,
+      "hypothesis": "tu   vois   la   c   est   pas   grave   sur   la   table   c   est   fait   expres   la   table"
+    },
+    {
+      "file_id": "21-20190513-070000-1033-4152-00-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 0.2,
+      "end_time": 0.461,
+      "duration": 261,
+      "hypothesis": "ouais"
+    },
+    {
+      "file_id": "21-20190513-070000-1033-4152-00-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 9.867,
+      "end_time": 10.703,
+      "duration": 836,
+      "hypothesis": "alors"
+    },
+    {
+      "file_id": "21-20190513-070000-1033-4152-00-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 21.404,
+      "end_time": 22.241,
+      "duration": 837,
+      "hypothesis": "ne   touche   pas"
+    },
+    {
+      "file_id": "33-20200211-080000-1239-4141-02-part02",
+      "speaker_id": "1239",
+      "class_id": "33",
+      "start_time": 8.8,
+      "end_time": 11.681,
+      "duration": 2881,
+      "hypothesis": "ooo   ooo   oo    s      o    bs   <eps>"
+    },
+    {
+      "file_id": "33-20200211-080000-1239-4141-02-part02",
+      "speaker_id": "1239",
+      "class_id": "33",
+      "start_time": 14.4,
+      "end_time": 17.409,
+      "duration": 3009,
+      "hypothesis": "<eps>   <eps>   l   equipe   de   prenom   allez   restallez   vous"
+    },
+    {
+      "file_id": "33-20200211-080000-1239-4141-02-part02",
+      "speaker_id": "1239",
+      "class_id": "33",
+      "start_time": 19.2,
+      "end_time": 20.954,
+      "duration": 1754,
+      "hypothesis": "allez   trouvez   vous   une   petite   plaque"
+    }
+]

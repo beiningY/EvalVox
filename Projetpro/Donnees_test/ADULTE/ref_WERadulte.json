@@ -1,0 +1,92 @@
+[
+    {
+      "file_id": "21-20181009-070000-1033-4152-03-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 0.0,
+      "end_time": 2.97,
+      "duration": 2.97,
+      "transcript": "tenez prenom  oui d accord  tres bien  au revoir ",
+      "situation": "En classe"
+    },
+    {
+      "file_id": "21-20181009-070000-1033-4152-03-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 5.2,
+      "end_time": 7.06,
+      "duration": 1.8599999999999994,
+      "transcript": "ooo oui c est le moment ",
+      "situation": "En classe"
+    },
+    {
+      "file_id": "21-20181009-070000-1033-4152-03-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 17.52,
+      "end_time": 20.89,
+      "duration": 3.370000000000001,
+      "transcript": "tu vois la  c est pas grave sur la table c est fait expres la table ",
+      "situation": "En classe"
+    },
+    {
+      "file_id": "21-20190513-070000-1033-4152-00-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 0.2,
+      "end_time": 0.46,
+      "duration": 0.26,
+      "transcript": "ouais ",
+      "situation": "Hors classe"
+    },
+    {
+      "file_id": "21-20190513-070000-1033-4152-00-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 9.87,
+      "end_time": 10.7,
+      "duration": 0.8300000000000001,
+      "transcript": "alors ",
+      "situation": "En classe"
+    },
+    {
+      "file_id": "21-20190513-070000-1033-4152-00-part02",
+      "speaker_id": "1033",
+      "class_id": "21",
+      "start_time": 21.4,
+      "end_time": 22.24,
+      "duration": 0.8399999999999999,
+      "transcript": "ne touche pas ",
+      "situation": "En classe"
+    },
+    {
+      "file_id": "33-20200211-080000-1239-4141-02-part02",
+      "speaker_id": "1239",
+      "class_id": "33",
+      "start_time": 8.8,
+      "end_time": 11.68,
+      "duration": 2.879999999999999,
+      "transcript": "ooo ooo on fait pas du bruit ",
+      "situation": "En classe"
+    },
+    {
+      "file_id": "33-20200211-080000-1239-4141-02-part02",
+      "speaker_id": "1239",
+      "class_id": "33",
+      "start_time": 14.4,
+      "end_time": 17.41,
+      "duration": 3.01,
+      "transcript": "c est l equipe de prenom  allez  installez vous ",
+      "situation": "En classe"
+    },
+    {
+      "file_id": "33-20200211-080000-1239-4141-02-part02",
+      "speaker_id": "1239",
+      "class_id": "33",
+      "start_time": 19.2,
+      "end_time": 20.95,
+      "duration": 1.75,
+      "transcript": "allez  trouvez vous une petite plaque ",
+      "situation": "Hors classe"
+    }
+] 
