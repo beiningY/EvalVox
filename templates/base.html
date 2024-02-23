@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvalVox</title>
+    <!-- Lien vers la feuille de style Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap.min.css' %}">
+</head>
+<body>
+
+<!-- Barre de navigation -->
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <!-- Lien vers la page d'accueil -->
+    <a class="navbar-brand" href="{% url 'home' %}">EvalVox</a>
+    <!-- Bouton pour le menu mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Basculer la navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Éléments de la barre de navigation -->
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}" href="{% url 'home' %}">ACCUEIL
+            {% if request.resolver_match.url_name == 'home' %}<span class="visually-hidden">(actuel)</span>{% endif %}
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link {% if request.resolver_match.url_name == 'conversion' %}active{% endif %}" href="{% url 'conversion' %}">CONVERSION
+              {% if request.resolver_match.url_name == 'conversion' %}<span class="visually-hidden">(actuel)</span>{% endif %}
+            </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.resolver_match.url_name == 'DER' %}active{% endif %}" href="{% url 'DER' %}">SEGMENTATION
+            {% if request.resolver_match.url_name == 'DER' %}<span class="visually-hidden">(actuel)</span>{% endif %}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.resolver_match.url_name == 'WER' %}active{% endif %}" href="{% url 'WER' %}">RAP
+            {% if request.resolver_match.url_name == 'WER' %}<span class="visually-hidden">(actuel)</span>{% endif %}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.resolver_match.url_name == 'DERWER' %}active{% endif %}" href="{% url 'DERWER' %}">Chaîne de Traitement Complète
+            {% if request.resolver_match.url_name == 'DERWER' %}<span class="visually-hidden">(actuel)</span>{% endif %}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<!-- Conteneur principal pour le contenu dynamique -->
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+
+</body>
+</html>
