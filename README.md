@@ -1,42 +1,42 @@
 
-# EvalVox Installation Guide
+# Guide d'installation d'EvalVox
 
-This guide will help you set up the EvalVox application on your local server for development and testing purposes. Follow the steps below to get started.
+Ce guide vous aidera à configurer l'application EvalVox sur votre serveur local pour le développement et les tests. Suivez les étapes ci-dessous pour commencer.
 
-## Cloning the Repository
+## Cloner le dépôt
 
-First, clone the EvalVox repository to your local machine using Git:
+Tout d'abord, clonez le dépôt EvalVox sur votre machine locale en utilisant Git :
 
 ```
 git clone https://github.com/beiningY/EvalVox.git
 ```
 
-## Navigating to the Project Directory
+## Naviguer vers le répertoire du projet
 
-After cloning, move into the project directory:
+Après le clonage, déplacez-vous dans le répertoire du projet :
 
 ```
 cd EvalVox
 ```
 
-## Setting Up a Virtual Environment (Optional but Recommended)
+## Configuration d'un environnement virtuel (Optionnel mais recommandé)
 
-Creating a virtual environment is not mandatory but highly recommended to avoid conflicts with other Python packages on your system:
+Créer un environnement virtuel n'est pas obligatoire mais fortement recommandé pour éviter les conflits avec d'autres paquets Python sur votre système :
 
 ```
 python -m venv venv
-source venv/bin/activate # On Windows, use venv\Scripts\activate
+source venv/bin/activate # Sous Windows, utilisez venv\Scripts\activate
 ```
 
-## Installing Project Dependencies
+## Installation des dépendances du projet
 
-Install all necessary dependencies for the project by running:
+Installez toutes les dépendances nécessaires pour le projet en exécutant :
 
 ```
 pip install -r requirements.txt
 ```
 
-Alternatively, you can install the required libraries manually:
+Alternativement, vous pouvez installer manuellement les bibliothèques requises :
 
 ```
 pip install os
@@ -57,20 +57,21 @@ pip install django
 pip install uuid
 ```
 
-## Starting the Development Server
+## Démarrer le serveur de développement
 
-To start the development server, run:
+Pour démarrer le serveur de développement, exécutez :
 
 ```
 python manage.py runserver
 ```
 
-## Accessing the Web Application
+## Accéder à l'application Web
 
-Finally, open your web browser and go to the following URL to access the EvalVox application:
+Enfin, ouvrez votre navigateur web et rendez-vous à l'URL suivante pour accéder à l'application EvalVox :
 
 ```
 http://127.0.0.1:8000/
 ```
 
-You should now have the EvalVox application running on your local server. Enjoy testing and developing!
+Vous devriez maintenant avoir l'application EvalVox fonctionnant sur votre serveur local. Profitez des tests et du développement !
+
